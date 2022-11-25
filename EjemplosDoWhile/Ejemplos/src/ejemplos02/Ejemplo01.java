@@ -22,7 +22,10 @@ public class Ejemplo01 {
         int contador = 1;
         do {
             contador = contador + 1;
+            System.out.println(contador);
+        contador = contador ;
         } while (contador <= 10);
+       
     }
 
 }
